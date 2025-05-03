@@ -8,7 +8,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 import math
 warnings.simplefilter(action='ignore', category=FutureWarning)
-df = pd.read_csv(r"C:\Users\VIGNESH BASKARAN\Downloads\archive\Ecommerce Customers.csv")
+df = pd.read_csv("/kaggle/input/focusing-on-mobile-app-or-website/Ecommerce Customers")
 print('------------------First Five Rows-----------------------------------------------------')
 print(df.head())
 print('------------------Last Five Rows-----------------------------------------------------')
